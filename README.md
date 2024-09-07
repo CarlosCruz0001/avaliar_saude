@@ -11,42 +11,42 @@ Este projeto é um aplicativo React Native para avaliação de saúde, incluindo
 
 ## Instalação
 
-1. **Clone o repositório:**
+ **Clone o repositório:**
 
-   ```bash
+   ``
    git clone <URL-DO-REPOSITORIO>
-Navegue até o diretório do projeto:
-
-bash
-Copiar código
+   ``
+**Navegue até o diretório do projeto:**
+``
 cd <NOME-DO-PROJETO>
-Instale as dependências:
-
-bash
-Copiar código
+``
+**Instale as dependências:**
+``
 npm install
-Instale as dependências do Expo e outras bibliotecas necessárias:
-
-bash
-Copiar código
+``
+**Instale as dependências do Expo e outras bibliotecas necessárias:**
+``
 npx expo install react-native-reanimated react-native-gesture-handler
-Inicie o projeto:
+``
+**Inicie o projeto:**
 
-bash
-Copiar código
+``
 npm start
-Uso
-HomePage: A tela inicial oferece dois botões para navegar para as páginas de cálculo de ICQ e IMC.
-ICQPage: Informe os valores de cintura e quadril para calcular o Índice de Cintura-Quadril (ICQ).
-IMCPage: Informe o peso e altura para calcular o Índice de Massa Corporal (IMC).
-Navegação
+``
+## Uso
+- **HomePage:** A tela inicial oferece dois botões para navegar para as páginas de cálculo de ICQ e IMC.
+- **ICQPage:** Informe os valores de cintura e quadril para calcular o Índice de Cintura-Quadril (ICQ).
+- **IMCPage:** Informe o peso e altura para calcular o Índice de Massa Corporal (IMC).
+
+## Navegação
 A navegação entre telas é realizada utilizando o createStackNavigator do React Navigation. As transições entre as telas foram configuradas para serem suaves e incluem animações personalizadas.
 
-Estilização
-Botões: Botões estilizados com sombras e cores personalizadas para melhorar a aparência.
-Estrelas Brilhantes: Animações de estrelas brilhantes são usadas no fundo para uma experiência visual agradável.
-Dependências
-react-native: Framework principal para desenvolvimento móvel.
-react-navigation: Biblioteca para navegação entre telas.
-react-native-reanimated: Biblioteca para animações personalizadas.
-react-native-gesture-handler: Biblioteca para manipulação de gestos.
+## Estilização
+- **Botões:** Botões estilizados com sombras e cores personalizadas para melhorar a aparência.
+- **Estrelas Brilhantes:** Animações de estrelas brilhantes são usadas no fundo para uma experiência visual agradável.
+
+## Dependências
+``react-native:`` Framework principal para desenvolvimento móvel.
+``react-navigation:`` Biblioteca para navegação entre telas.
+``react-native-reanimated:`` Biblioteca para animações personalizadas.
+``react-native-gesture-handler:`` Biblioteca para manipulação de gestos.
